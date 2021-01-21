@@ -1,14 +1,9 @@
 # Introduction 
 Prova de conceito utilizando filas com hangfire como serviço em background
 
-- "SENDGRID_KEY": **"XXX-XXXX-XXXX"**
-- "SALT_KEY": **"XXX-XXXX-XXXX"**
-- "BASE_URI": **"http://localhost:7071/"**
-- "USE_DASHBOARD": **"true"**
-
 # Getting Started
 
-> Set varables into *Solution/workerapi/**appsettings.json***
+> Set varables into solution **../poc.hangfire.worker/**appsettings.json**
 
 - ConnectionStrings:DefaultConnection : **<your_sql_connection>**
 - Open package management console and run : **update-database**
